@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
+    <title>Phonky</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <nav class="nav">
+
+            <div class="hamburger">
+                <img src="img/hamburger.svg" alt="">
+            </div>
+            <div class="logo p-1">
+                <img class="invert" src="img/logo.svg" alt="logo">
+                <div class="brandname">PHONKY</div>
+            </div>
+            <div class="header">
+                <div class="Buttons">
+                    <button> <img class="invert" src="img/install-svgrepo-com.svg" alt=""> Install app</button>
+                    <button>Sign Up</button>
+                    <button class="login">Login</button>
+                </div>
+            </div>
+        </nav>
+
+        <div class="content-wrapper flex">
+            <div class="left ">
+                <div class="Home bg-grey rounded m-1 ">
+
+                    <ul>
+                        <li class="p-1"><img class="invert" src="img/home.svg" alt="home">Home</li>
+                        <li class="p-1"><img class="invert" src="img/search.svg" alt="search">Search</li>
+                    </ul>
+                </div>
+                <div class="library bg-grey rounded m-1 p-1">
+                    Your Library
+                    <div class="songs-list">
+                        <ul>
+                        </ul>
+                    </div>
+                </div>
+
+                <footer>
+                    <div class="footer-links">
+                        <div class="links-row">
+                            <a href="https://www.spotify.com/in-en/legal/">Legal</a>
+                            <a href="https://www.spotify.com/in-en/safetyandprivacy/">Safety & Privacy Center</a>
+                            <a href="https://www.spotify.com/in-en/legal/privacy-policy/">Privacy Policy</a>
+                            <a href="https://www.spotify.com/in-en/legal/cookies-policy/">Cookies</a>
+                        </div>
+                        <div class="links-row">
+                            <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">About Ads</a>
+                            <a href="https://www.spotify.com/in-en/accessibility/">Accessibility</a>
+                        </div>
+                    </div>
+
+                    <div class="cookies-label">
+                        <span>Cookies</span>
+                    </div>
+
+                    <div class="language-btn">
+                        <button>🌐 English</button>
+                    </div>
+                </footer>
+
+            </div>
+            <div class="right ">
+                <div class="Trending-Song">
+                    Trending Songs
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="image-container">
+                                <img src="https://i.scdn.co/image/ab67616d00001e0242070afa09e06a2f9bb2483d" alt="">
+                                <img class="play" src="img/play-1000-svgrepo-com.svg" alt="play">
+                            </div>
+                            <h4>5-7</h4>
+                            <p>Karan Aujla ,Mxrci</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="albums">
+                    PlayList
+                    <div class="album-container"></div>
+                </div>
+                <div class="Trending-Song">
+                    Trending Songs
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="image-container">
+                                <img src="https://i.scdn.co/image/ab67616d00001e0242070afa09e06a2f9bb2483d" alt="">
+                                <img class="play" src="img/play-1000-svgrepo-com.svg" alt="play">
+                            </div>
+                            <h4>5-7</h4>
+                            <p>Karan Aujla ,Mxrci</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="volume">
+                <img id="volumeIcon" src="img/volume.svg" alt="volume">
+                <div class="volume-slider-container" id="volumeSliderContainer">
+                    <input type="range" id="volumeRange" class="volume-range" min="0" max="100" value="100">
+                </div>
+            </div>
+            <div class="playbar">
+                <div class="seekbar">
+                    <div class="circle"> </div>
+                </div>
+
+                <div class="songinfo"></div>
+                <div class="songbuttons">
+                    <img id="previous" src="img/previous-svgrepo-com.svg" alt="">
+                    <img id="play" src="img/play.svg" alt="">
+                    <img id="next" src="img/next-svgrepo-com.svg" alt="">
+                </div>
+                <div class="songtime"></div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
